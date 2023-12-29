@@ -1,26 +1,22 @@
 const allJsonData = (async () => {
-  const response = await fetch(`/data/product/all.json`);
+  const response = await fetch(`/widely/data/product/all.json`);
   const data = await response.json();
   return data;
 })();
-
 const basketList = [];
-
 /**
  * category: all, food, new, nutrients, shaving, skin
  * sort : latest, lowprice, highprice
  */
 export const getProductList = async (category, sort, currentPage, size) => {
   return await fetch(
-    `http://10.58.52.82:8000/products?category=${category}&sort=${sort}&page=${currentPage}&size=${size}`,
+    `http://10.58.52.82:8000/widely/products?category=${category}&sort=${sort}&page=${currentPage}&size=${size}`,
   );
 };
-
 export const _getProductList = async (category, sort, currentPage, size) => {
-  const response = await fetch(`/data/product/${category}.json`);
+  const response = await fetch(`/widely/data/product/${category}.json`);
   const data = await response.json();
   let { list } = data;
-
   if (sort === 'lowprice') {
     list.sort((a, b) => a.price - b.price);
   } else if (sort === 'highprice') {
@@ -41,11 +37,9 @@ export const _getProductList = async (category, sort, currentPage, size) => {
     });
   });
 };
-
 export const getDetail = async (id) => {
-  return await fetch(`http://10.58.52.82:8000/products/${id}`);
+  return await fetch(`http://10.58.52.82:8000/widely/products/${id}`);
 };
-
 export const _getDetail = async (id) => {
   const data = await allJsonData;
   const { list } = data;
@@ -56,9 +50,10 @@ export const _getDetail = async (id) => {
     });
   });
 };
-
 export const searchProduct = async (keyword) => {
-  return await fetch(`http://10.58.52.82:8000/search?keyword=${keyword}`);
+  return await fetch(
+    `http://10.58.52.82:8000/widely/search?keyword=${keyword}`,
+  );
 };
 export const _searchProduct = async (keyword) => {
   const data = await allJsonData;
@@ -70,11 +65,9 @@ export const _searchProduct = async (keyword) => {
     });
   });
 };
-
 export const getMain = async () => {
-  return await fetch('http://10.58.52.82:8000/products/main');
+  return await fetch('http://10.58.52.82:8000/widely/products/main');
 };
-
 export const _getMain = async () => {
   const result = {
     nutrient: {},
@@ -83,9 +76,8 @@ export const _getMain = async () => {
     food: {},
   };
   for (let category of ['nutrient', 'shaving', 'skin', 'food']) {
-    const response = await fetch(`/data/product/${category}.json`);
+    const response = await fetch(`/widely/data/product/${category}.json`);
     const data = await response.json();
-
     result[category] = data.list.slice(0, 4);
   }
   return new Promise((resolve, reject) => {
@@ -99,9 +91,8 @@ export const _getMain = async () => {
     });
   });
 };
-
 export const getBasketList = async (token) => {
-  return await fetch('http://10.58.52.82:8000/carts', {
+  return await fetch('http://10.58.52.82:8000/widely/carts', {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json;charset=utf-8',
@@ -109,7 +100,6 @@ export const getBasketList = async (token) => {
     },
   });
 };
-
 export const _getBasketList = async () => {
   let list = basketList;
   return new Promise((resolve, reject) => {
@@ -118,9 +108,8 @@ export const _getBasketList = async () => {
     });
   });
 };
-
 export const addBasket = async (token, productId, count) => {
-  return await fetch('http://10.58.52.82:8000/carts', {
+  return await fetch('http://10.58.52.82:8000/widely/carts', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json;charset=utf-8',
@@ -132,7 +121,6 @@ export const addBasket = async (token, productId, count) => {
     }),
   });
 };
-
 export const _addBasket = async (token, productId, count) => {
   const data = await allJsonData;
   const { list } = data;
@@ -147,7 +135,6 @@ export const _addBasket = async (token, productId, count) => {
     });
   });
 };
-
 export const _deleteBasket = async (token, productId) => {
   const itemIndex = basketList.findIndex(
     (item) => item.productId === Number(productId),
@@ -159,9 +146,8 @@ export const _deleteBasket = async (token, productId) => {
     });
   });
 };
-
 export const login = async (email, password) => {
-  return await fetch('http://10.58.52.82:8000/users/login', {
+  return await fetch('http://10.58.52.82:8000/widely/users/login', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -172,7 +158,6 @@ export const login = async (email, password) => {
     }),
   });
 };
-
 export const _login = async (email, password) => {
   return new Promise((resolve, reject) => {
     resolve({
