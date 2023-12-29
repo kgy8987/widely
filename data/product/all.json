@@ -13,7 +13,7 @@
     {
       "id": 2,
       "category": "영양제",
-      "thumbnailImage": "../widely/images/product/item2.png",
+      "thumbnailImage": "https://kgy8987.github.io/widely/images/product/item2.png",
       "price": 5000,
       "name": "눈 건강 루테인/아스타잔틴",
       "description": "[2개월분] 눈 관련 식약처 고시 성분 세 가지를 한 캡슐로. 눈 건강 집중 케어"
@@ -21,7 +21,7 @@
     {
       "id": 3,
       "category": "영양제",
-      "thumbnailImage": "../widely/images/product/item3.png",
+      "thumbnailImage": "https://kgy8987.github.io/widely/images/product/item3.png",
       "price": 7000,
       "name": "활력충전 아르기닌 6000",
       "description": "[15일분] 한 포에 초고함량 L-아르기닌 6,000mg을 가득"
@@ -29,7 +29,7 @@
     {
       "id": 4,
       "category": "영양제",
-      "thumbnailImage": "../widely/images/product/item4.png",
+      "thumbnailImage": "https://kgy8987.github.io/widely/images/product/item4.png",
       "price": 13000,
       "name": "장 건강 유산균",
       "description": "[2개월분] 장 건강과 배변활동 원활에 도움을 줄 수 있는 100억 CFU 보장 유산균"
@@ -37,7 +37,7 @@
     {
       "id": 5,
       "category": "영양제",
-      "thumbnailImage": "../widely/images/product/item5.png",
+      "thumbnailImage": "https://kgy8987.github.io/widely/images/product/item5.png",
       "price": 11000,
       "name": "블랙 마카",
       "description": "[1개월분] 코엔자임Q10, 홍국, 은행잎추출물로 만든 알찬 배합"
@@ -45,7 +45,7 @@
     {
       "id": 6,
       "category": "영양제",
-      "thumbnailImage": "../widely/images/product/item6.png",
+      "thumbnailImage": "https://kgy8987.github.io/widely/images/product/item6.png",
       "price": 22000,
       "name": "전립선・지구력 쏘팔메토/옥타코사놀",
       "description": "[2개월분] 쏘팔메토열매추출물 383mg (로르산 115mg), 옥타코사놀 40mg, 식약처 일일 최대 섭취량으로 배합"
@@ -53,7 +53,7 @@
     {
       "id": 7,
       "category": "면도기",
-      "thumbnailImage": "../widely/images/product/item7.png",
+      "thumbnailImage": "https://kgy8987.github.io/widely/images/product/item7.png",
       "price": 10000,
       "name": "일회용 간편 면도기",
       "description": "들고 다니기 편한 일회용 면도기"
@@ -61,7 +61,7 @@
     {
       "id": 8,
       "category": "삼중날면도기",
-      "thumbnailImage": "../widely/images/product/item8.png",
+      "thumbnailImage": "https://kgy8987.github.io/widely/images/product/item8.png",
       "price": 15000,
       "name": "삼중날 면도기",
       "description": "부드러운 삼중날 면도기!"
@@ -69,7 +69,7 @@
     {
       "id": 9,
       "category": "전동면도기",
-      "thumbnailImage": "../widely/images/product/item9.png",
+      "thumbnailImage": "https://kgy8987.github.io/widely/images/product/item9.png",
       "price": 17000,
       "name": "전동 면도기",
       "description": "정말 편한 전동 면도기"
@@ -77,7 +77,7 @@
     {
       "id": 10,
       "category": "치약",
-      "thumbnailImage": "../widely/images/product/item10.png",
+      "thumbnailImage": "https://kgy8987.github.io/widely/images/product/item10.png",
       "price": 13000,
       "name": "성인용 치약",
       "description": "건강한 치아를 위한 치약"
@@ -85,7 +85,7 @@
     {
       "id": 11,
       "category": "가글",
-      "thumbnailImage": "../widely/images/product/item11.png",
+      "thumbnailImage": "https://kgy8987.github.io/widely/images/product/item11.png",
       "price": 7000,
       "name": "정말 편한 가그린",
       "description": "휴대용 가그린! "
@@ -93,7 +93,7 @@
     {
       "id": 12,
       "category": "어린이치약",
-      "thumbnailImage": "../widely/images/product/item12.png",
+      "thumbnailImage": "https://kgy8987.github.io/widely/images/product/item12.png",
       "price": 12000,
       "name": "어린이 치약",
       "description": "안매운 어린이치약!"
@@ -101,7 +101,7 @@
     {
       "id": 13,
       "category": "니베아",
-      "thumbnailImage": "../widely/images/product/item13.png",
+      "thumbnailImage": "https://kgy8987.github.io/widely/images/product/item13.png",
       "price": 10000,
       "name": "니베아 수분크림",
       "description": "촉촉한 수분크림"
@@ -109,7 +109,7 @@
     {
       "id": 14,
       "category": "세럼",
-      "thumbnailImage": "../widely/images/product/item14.png",
+      "thumbnailImage": "https://kgy8987.github.io/widely/images/product/item14.png",
       "price": 5000,
       "name": "세럼",
       "description": "피부 수분 충전 세럼"
@@ -117,7 +117,7 @@
     {
       "id": 15,
       "category": "클렌징폼",
-      "thumbnailImage": "../widely/images/product/item15.png",
+      "thumbnailImage": "https://kgy8987.github.io/widely/images/product/item15.png",
       "price": 7000,
       "name": "클렌징 폼",
       "description": "깨끗한 얼굴 클렌징폼"
@@ -125,7 +125,7 @@
     {
       "id": 16,
       "category": "영양크림",
-      "thumbnailImage": "../widely/images/product/item16.png",
+      "thumbnailImage": "https://kgy8987.github.io/widely/images/product/item16.png",
       "price": 13000,
       "name": "영양 크림",
       "description": "피부 영양을 주는 영양 크림"
@@ -133,7 +133,7 @@
     {
       "id": 17,
       "category": "달팽이크림",
-      "thumbnailImage": "../widely/images/product/item17.png",
+      "thumbnailImage": "https://kgy8987.github.io/widely/images/product/item17.png",
       "price": 11000,
       "name": "달팽이 크림",
       "description": "영양 듬뿍 달팽이 크림"
@@ -141,7 +141,7 @@
     {
       "id": 18,
       "category": "스킨",
-      "thumbnailImage": "../widely/images/product/item18.png",
+      "thumbnailImage": "https://kgy8987.github.io/widely/images/product/item18.png",
       "price": 22000,
       "name": "스킨올인원",
       "description": "올인원 스킨"
@@ -149,7 +149,7 @@
     {
       "id": 19,
       "category": "살살녹는 빵",
-      "thumbnailImage": "../widely/images/product/item19.png",
+      "thumbnailImage": "https://kgy8987.github.io/widely/images/product/item19.png",
       "price": 10000,
       "name": "정말 맛있는 빵!! 살살녹는바게트빵!!",
       "description": "바삭바삭하게 속은 촉촉하게 만든 바게트빵"
@@ -157,7 +157,7 @@
     {
       "id": 20,
       "category": "쿠키",
-      "thumbnailImage": "../widely/images/product/item20.png",
+      "thumbnailImage": "https://kgy8987.github.io/widely/images/product/item20.png",
       "price": 5000,
       "name": "아삭아삭 초코쿠키",
       "description": "어린이들을 위한 간식!!"
@@ -165,7 +165,7 @@
     {
       "id": 21,
       "category": "식빵",
-      "thumbnailImage": "../widely/images/product/item21.png",
+      "thumbnailImage": "https://kgy8987.github.io/widely/images/product/item21.png",
       "price": 7000,
       "name": "정말 부드러운 식빵",
       "description": "각종 잼의 발라먹기 좋은 식빵"
@@ -173,7 +173,7 @@
     {
       "id": 22,
       "category": "햄버거빵",
-      "thumbnailImage": "../widely/images/product/item22.png",
+      "thumbnailImage": "https://kgy8987.github.io/widely/images/product/item22.png",
       "price": 13000,
       "name": "햄버거 만들기 좋은 햄버거빵",
       "description": "햄버거를 집에서 만들어먹기 좋은 빵"
@@ -181,7 +181,7 @@
     {
       "id": 23,
       "category": "샌드위치",
-      "thumbnailImage": "../widely/images/product/item23.png",
+      "thumbnailImage": "https://kgy8987.github.io/widely/images/product/item23.png",
       "price": 11000,
       "name": "간편 샌드위치",
       "description": "아침에 먹기좋은 간편 샌드위치"
@@ -189,7 +189,7 @@
     {
       "id": 24,
       "category": "바나나빵",
-      "thumbnailImage": "../widely/images/product/item24.png",
+      "thumbnailImage": "https://kgy8987.github.io/widely/images/product/item24.png",
       "price": 22000,
       "name": "달콤한 바나나 빵",
       "description": "달콤달콤한 바나나빵"
